@@ -1,0 +1,35 @@
+.student-form {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.student-form input {
+    margin: 10px;
+    padding: 8px;
+    width: 200px;
+}
+
+.student-form button {
+    padding: 8px 15px;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
