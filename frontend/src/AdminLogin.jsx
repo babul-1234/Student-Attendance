@@ -12,7 +12,7 @@ const AdminLogin = ({ setIsLoggedIn }) => {
 
   const handleLogin = async () => {
     try {
-      const res = await axios.post("https://student-attendance-xi.vercel.app/admin/login", {
+      const res = await axios.post("https://vercel.com/srijan-routs-projects-a43ac934/student-attendance/7VqkfqRho3kxrYAZXNei3pNUGJBa/admin/login", {
         username,
         password,
       });
