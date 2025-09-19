@@ -10,7 +10,7 @@ const mysql = require("mysql2");
 
 
 const app = express();
-// const PORT =  5000;
+const PORT =  5000;
 
 app.use(cors({
     origin: ["http://localhost:3000",
@@ -194,4 +194,8 @@ app.post("/admin/register", (req, res) => {
 
 
 
-app.listen("https://student-attendance-xi.vercel.app/");
+app.listen(PORT, () => {
+    console.log(`server is runnin of port ${PORT}`);
+
+})
+    
