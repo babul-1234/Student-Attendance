@@ -14,7 +14,7 @@ const PORT =  5000;
 
 app.use(cors({
     origin: ["http://localhost:3000",
-        "https://srijan-web.netlify.app/"
+        "https://srijan-web.netlify.app"
     ]
 }));
 app.use(express.json());
