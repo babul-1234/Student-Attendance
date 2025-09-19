@@ -13,7 +13,8 @@ const app = express();
 const PORT =  5000;
 
 app.use(cors({
-    origin: ["https://srijan-web.netlify.app"]
+    origin: ["http://localhost:3000",
+            "https://srijan-web.netlify.app"]
 }));
 app.use(express.json());
 const db = mysql.createConnection({
