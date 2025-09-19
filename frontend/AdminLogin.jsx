@@ -8,7 +8,7 @@ function AdminLogin({ setToken }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/admin/login", form);
+      const res = await axios.post("https://student-attendance-xi.vercel.app/admin/login", form);
       setToken(res.data.token);
       alert("Logged in successfully!");
     } catch (err) {
